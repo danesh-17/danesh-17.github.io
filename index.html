@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Danesh Patel — AI Engineer and Data Engineer. Portfolio of AI, LLM, RAG, data engineering and machine learning work.">
+<title>Danesh Patel | AI Engineer & Data Engineer</title>
+<style>
+:root{
+  --bg:#070a0f;--panel:#0e131b;--panel2:#121923;--text:#f4f7fb;--muted:#9ca8b8;
+  --line:#25303d;--cyan:#7dd3fc;--violet:#a78bfa;--max:1120px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% 0%,#18243a 0,#070a0f 38%);color:var(--text);
+font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:50;background:rgba(7,10,15,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:850;letter-spacing:-.04em}.brand b{color:var(--cyan)}
+.links{display:flex;gap:25px;color:var(--muted);font-size:14px}.links a:hover{color:var(--text)}
+.hero{min-height:calc(100vh - 68px);display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:60px;padding:85px 0}
+.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--cyan);background:rgba(125,211,252,.05);font-size:13px}
+h1{font-size:clamp(50px,7vw,86px);line-height:.96;letter-spacing:-.07em;margin:22px 0}
+h1 span{color:var(--cyan)}.lead{font-size:20px;color:var(--muted);max-width:720px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 18px;border-radius:10px;border:1px solid var(--line);font-weight:750;font-size:14px}
+.primary{background:var(--text);color:#070a0f;border-color:var(--text)}.btn:hover{border-color:var(--cyan)}
+.card{background:linear-gradient(145deg,rgba(18,25,35,.95),rgba(10,14,20,.95));border:1px solid var(--line);border-radius:20px}
+.terminal{padding:22px;box-shadow:0 30px 90px rgba(0,0,0,.35)}.dots{display:flex;gap:6px;margin-bottom:20px}
+.dot{width:9px;height:9px;border-radius:50%;background:#46505f}.code{font:14px/1.8 ui-monospace,SFMono-Regular,Menlo,monospace;color:#c8d2df}
+.k{color:var(--violet)}.v{color:var(--cyan)}.s{color:#b8e0c2}
+section{padding:90px 0;border-top:1px solid rgba(255,255,255,.06)}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h2{font-size:42px;letter-spacing:-.05em;line-height:1.05;margin:10px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.project{padding:26px;transition:.2s}.project:hover{transform:translateY(-3px);border-color:#3a4b5f}
+.project h3{font-size:22px;margin:0 0 8px}.project p{color:var(--muted);margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:12px;border:1px solid var(--line);padding:5px 8px;border-radius:999px;color:#c8d2df}
+.feature{grid-column:1/-1;background:linear-gradient(135deg,rgba(125,211,252,.08),rgba(167,139,250,.06));}
+.timeline{display:grid;gap:16px}.role{padding:23px}.rolehead{display:flex;justify-content:space-between;gap:20px}.role h3{margin:0;font-size:19px}.date{color:var(--cyan);font-size:13px;white-space:nowrap}.company{color:var(--muted);margin:2px 0 12px}
+ul{margin:8px 0 0;padding-left:20px;color:#c2ccd8}li{margin:7px 0}
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.skill{padding:20px}.skill strong{display:block;margin-bottom:7px}.skill span{color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px}.about p{color:var(--muted);font-size:17px}
+.contact{text-align:center;padding-bottom:120px}.contact p{color:var(--muted);font-size:18px}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:28px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between}
+@media(max-width:800px){.links{display:none}.hero,.about{grid-template-columns:1fr}.hero{padding-top:65px}.grid,.skills{grid-template-columns:1fr}.feature{grid-column:auto}.rolehead{display:block}.date{display:block;margin-top:5px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav">
+  <a class="brand" href="#">Danesh <b>Patel</b></a>
+  <div class="links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<main>
+<section class="hero wrap">
+  <div>
+    <div class="badge">AI Engineering · Data Engineering · GenAI</div>
+    <h1>Building useful<br><span>AI systems.</span></h1>
+    <p class="lead">I'm Danesh Patel, an MS Data Science student at Rutgers University with hands-on experience building AI, LLM, RAG, data engineering and machine learning systems.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="card profile-card">
+    <img src="profile.jpg" alt="Danesh Patel">
+    <div class="profile-caption">AI Engineering · Data Engineering · GenAI</div>
+  </div>
+</section>
+
+<section id="about"><div class="wrap">
+  <div class="eyebrow">About</div><h2>AI with an engineering mindset.</h2>
+  <div class="about">
+    <p>My work sits at the intersection of AI engineering and data engineering. I've built cloud data pipelines, LLM applications, RAG systems, clinical NLP workflows and analytics platforms.</p>
+    <p>Currently, I'm an AI Engineering Intern at Eisai while pursuing an MS in Data Science at Rutgers University. I enjoy turning messy data and complex AI problems into reliable, measurable systems.</p>
+  </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+  <div class="eyebrow">Experience</div><h2>Selected experience</h2>
+  <div class="timeline">
+    <article class="card role"><div class="rolehead"><div><h3>AI Engineering Intern · Eisai Inc.</h3><div class="company">R&D / AI Engineering</div></div><div class="date">Jun 2026 — Present</div></div>
+      <ul><li>Architected an FDA Audit Assistant using Microsoft Copilot Studio and Anthropic Claude with RAG over 15,000+ SharePoint-hosted CSV documents.</li><li>Implemented 5 reusable prompt tools, improving response quality and reducing answer-generation latency by 65%.</li><li>Built a Databricks AI-usage analytics dashboard using Microsoft Audit API data across 600+ employees.</li></ul>
+    </article>
+    <article class="card role"><div class="rolehead"><div><h3>Data Engineer · SST</h3><div class="company">Cloud Data Engineering</div></div><div class="date">May 2025 — Jan 2026</div></div>
+      <ul><li>Built Python ETL pipelines on AWS for 10K+ Apostille applications.</li><li>Designed PostgreSQL schemas for application lifecycle, document status, timestamps and user actions.</li><li>Integrated API ingestion with AWS ETL workflows, reducing synchronization latency by 45%.</li><li>Built Power BI dashboards that improved turnaround time by 30%.</li></ul>
+    </article>
+    <article class="card role"><div class="rolehead"><div><h3>AI Engineering Intern · Ohio State University Wexner Medical Center</h3><div class="company">Clinical AI / NLP</div></div><div class="date">Jan 2025 — May 2025</div></div>
+      <ul><li>Built Azure REST API pipelines processing 45K+ clinical text records from Azure Data Lake to Databricks for BioBART training.</li><li>Optimized 6 LangChain prompt templates, reducing monthly token usage from 8M to 5.5M across 15 users.</li><li>Fine-tuned BioBART for clinical text summarization, achieving a 93% ROUGE-L score.</li></ul>
+    </article>
+    <article class="card role"><div class="rolehead"><div><h3>Data Science Intern · Church & Dwight</h3><div class="company">Forecasting / Analytics</div></div><div class="date">May 2024 — Sep 2024</div></div>
+      <ul><li>Built Python forecasting models using LSTM, Prophet, ARIMA, SARIMA, STL and autoregressive methods, achieving 6% MAPE.</li><li>Used Spark with Python to analyze safety stock for Amazon and Chewy, identifying 2.3M cut orders.</li></ul>
+    </article>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <div class="eyebrow">Projects</div><h2>Things I've built.</h2>
+  <div class="grid">
+    <article class="card project feature"><h3>AI Analytics Assistant</h3><p>GenAI-powered analytics engine that converts natural-language questions into structured queries to deliver deterministic business insights over Excel datasets. LRU caching and NLP-based tokenization reduced query latency by approximately 50%.</p><div class="tags"><span class="tag">Python</span><span class="tag">GPT-5-nano</span><span class="tag">NLP</span><span class="tag">LLM</span><span class="tag">Caching</span></div></article>
+    <article class="card project"><h3>Text Summarization AI</h3><p>Fine-tuned T5-small with LoRA on WikiHow to build a text summarization system, improving ROUGE-L by 18% while reducing memory usage by 30% through training and preprocessing optimizations.</p><div class="tags"><span class="tag">PyTorch</span><span class="tag">T5</span><span class="tag">LoRA</span><span class="tag">NLP</span></div></article>
+    <article class="card project"><h3>FDA Audit Assistant</h3><p>A professional AI/RAG system developed during my Eisai internship for grounded regulatory Q&A over 15,000+ CSV documents. Public details are intentionally limited to protect confidential implementation information.</p><div class="tags"><span class="tag">RAG</span><span class="tag">Copilot Studio</span><span class="tag">Claude</span><span class="tag">Azure</span></div></article>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="eyebrow">Toolkit</div><h2>Technical skills.</h2>
+  <div class="skills">
+    <div class="card skill"><strong>Programming</strong><span>Python · SQL · R · Java</span></div>
+    <div class="card skill"><strong>AI / GenAI</strong><span>LLMs · RAG · LangChain · Azure OpenAI · Hugging Face · PyTorch · TensorFlow · NLP</span></div>
+    <div class="card skill"><strong>Data Engineering</strong><span>Apache Spark · PySpark · Databricks · ETL Pipelines · PostgreSQL</span></div>
+    <div class="card skill"><strong>Cloud</strong><span>AWS S3 · Glue · Lambda · Redshift · Azure Data Lake · Azure AI</span></div>
+    <div class="card skill"><strong>Analytics</strong><span>Power BI · Tableau · Statistical Modeling · Regression · Time Series</span></div>
+    <div class="card skill"><strong>Developer Tools</strong><span>Git · GitHub · JIRA</span></div>
+  </div>
+</div></section>
+
+<section id="education"><div class="wrap">
+  <div class="eyebrow">Education</div><h2>Academic background.</h2>
+  <div class="grid">
+    <div class="card project"><h3>Rutgers University — New Brunswick</h3><p>Master of Science in Data Science · GPA 3.8 / 4.0<br>Jan 2026 — May 2027</p></div>
+    <div class="card project"><h3>Rutgers University — New Brunswick</h3><p>Bachelor of Science in Computer Science · GPA 3.6 / 4.0<br>Sep 2021 — May 2025</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <div class="eyebrow">Contact</div><h2>Let's build something useful.</h2>
+  <p>I'm interested in AI Engineering, Data Engineering, ML Engineering and GenAI opportunities.</p>
+  <div class="buttons" style="justify-content:center">
+    <a class="btn primary" href="mailto:danesh.patel07@gmail.com">Email me</a>
+    <a class="btn" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a class="btn" href="https://github.com/" target="_blank">GitHub</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap" style="width:100%;display:flex;justify-content:space-between"><span>© 2026 Danesh Patel</span><span>AI · Data · Engineering</span></div></footer>
+</body>
+</html>
